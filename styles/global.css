@@ -29,6 +29,10 @@ body {
   margin-inline-end: 0;
 }
 
+#comments {
+  width: 70vw;
+}
+
 .static-tweet-emoji {
   height: 1.2em !important;
   width: 1.2em !important;
