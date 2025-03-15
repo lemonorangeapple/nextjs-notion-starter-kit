@@ -35,7 +35,7 @@ export const FooterImpl: React.FC = () => {
   }, [])
 
   return (
-    <div id="comments">
+    <div style="width: 70vw;">
         <Giscus
           repo="lemonorangeapple/lemonorangeapple.github.io"
           repoId="R_kgDOKvAL3w"
