@@ -9,9 +9,9 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'June\'s Blog',
+  name: 'June_qwq\'s Blog',
   domain: 'blog.imjcj.eu.org',
-  author: 'June',
+  author: 'June_qwq',
 
   // open graph metadata (optional)
   description: '',
