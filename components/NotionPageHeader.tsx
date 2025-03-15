@@ -5,8 +5,7 @@ import cs from 'classnames'
 import * as React from 'react'
 import { Breadcrumbs, Header, Search, useNotionContext } from 'react-notion-x'
 
-
-import { navigationLinks, navigationStyle } from '@/lib/config'
+import { isSearchEnabled, navigationLinks, navigationStyle } from '@/lib/config'
 import { useDarkMode } from '@/lib/use-dark-mode'
 
 import styles from './styles.module.css'
@@ -82,6 +81,7 @@ export function NotionPageHeader({
 
           <ToggleThemeButton />
 
+          {isSearchEnabled && <Search block={block} title={null} />}
         </div>
       </div>
     </header>
