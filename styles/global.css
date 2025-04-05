@@ -64,3 +64,17 @@ body {
 ::-webkit-scrollbar-track {           
     background-color: var(--bg-color);
 }
+
+#hengping {
+  display: none;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  bottom: 0; 
+  right: 0; 
+  width: 100vw; 
+  height: 100vh; 
+  color: black; 
+  padding: 70px 0; 
+  text-align: center;
+}
