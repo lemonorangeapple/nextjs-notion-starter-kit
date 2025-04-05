@@ -50,7 +50,7 @@ export const FooterImpl: React.FC = () => {
           lang="zh-CN"
           loading="lazy"
         />
-      <div id="hengping" style="display: none; position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100vw; height: 100vh; color: black; padding: 70px 0; text-align: center;">
+      <div id="hengping">
         <h1>请使用横屏观看</h1>
       </div>
       <script>
