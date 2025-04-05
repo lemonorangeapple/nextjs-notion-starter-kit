@@ -53,7 +53,7 @@ export const FooterImpl: React.FC = () => {
       <div id="hengping">
         <h1>请使用横屏观看</h1>
       </div>
-      
+      <script src="/styles/hengping.js"></script>
     <footer className={styles.footer}>
       <div className={styles.copyright}>Copyright 2025 {config.author}</div>
 
