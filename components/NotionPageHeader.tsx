@@ -82,6 +82,9 @@ export const NotionPageHeader: React.FC<{
 
         </div>
       </div>
+      <div id="hengping">
+        <h1>请使用横屏观看</h1>
+      </div>
     </header>
   )
 }
