@@ -50,8 +50,21 @@ export const FooterImpl: React.FC = () => {
           lang="zh-CN"
           loading="lazy"
         />
+      <div id="hengping" style="display: none; position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100vw; height: 100vh; color: black; padding: 70px 0; text-align: center;">
+        <h1>请使用横屏观看</h1>
+      </div>
+      <script>
+      window.addEventListener("resize", (event) => {
+	      const orientation = (window.innerWidth > window.innerHeight) ? "landscape" : "portrait";
+	      if (orientation === 'portrait') {
+		      document.getElementById("hengping").style.display = "contents";
+	      } else {
+		      document.getElementById("hengping").style.display = "none";
+	      }
+      }, false);
+      </script>
     <footer className={styles.footer}>
-      <div className={styles.copyright}>Copyright 2024 {config.author}</div>
+      <div className={styles.copyright}>Copyright 2025 {config.author}</div>
 
       <div className={styles.settings}>
         {hasMounted && (
