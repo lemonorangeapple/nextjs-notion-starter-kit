@@ -12,6 +12,7 @@ export default siteConfig({
   name: 'June_qwq\'s Blog',
   domain: 'blog.imjcj.eu.org',
   author: 'June_qwq',
+  language: 'zh'
 
   // open graph metadata (optional)
   description: '',
