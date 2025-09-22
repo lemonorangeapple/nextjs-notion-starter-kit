@@ -31,6 +31,10 @@ export const getServerSideProps: GetServerSideProps = async ({ req, res }) => {
     title: config.name,
     site_url: config.host,
     feed_url: `${config.host}/feed.xml`,
+    follow_challenge: {
+      feed_id: "192050252900630528",
+      user_id: "192041443510423552"
+    },
     language: config.language,
     ttl: ttlMinutes
   })
